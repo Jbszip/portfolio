@@ -1,0 +1,59 @@
+{
+    "tools":[
+        {
+            "id":1,
+            "imagen": "/html.svg",
+            "name": "HTML"
+        },
+        {
+            "id":2,
+            "imagen": "/css.svg",
+            "name": "CSS"
+        },
+        {
+            "id":3,
+            "imagen": "/js.svg",
+            "name": "JavaScript"
+        },
+        {
+            "id":4,
+            "imagen": "/react.svg",
+            "name": "React"
+        },
+        {
+            "id":5,
+            "imagen": "/next.svg",
+            "name": "NextJs"
+        },
+        {
+            "id":6,
+            "imagen": "/ts.svg",
+            "name": "Typescript"
+        },
+        {
+            "id":7,
+            "imagen": "/git.svg",
+            "name": "Git"
+        },
+        {
+            "id":8,
+            "imagen": "/sql.svg",
+            "name": "SQL"
+        },
+        {
+            "id":9,
+            "imagen": "/angular.svg",
+            "name": "Angular"
+        },
+        {
+            "id":10,
+            "imagen": "/tailwind.svg",
+            "name": "Tailwind"
+        },
+        {
+            "id":11,
+            "imagen": "/bootstrap.svg",
+            "name": "Bootstrap"
+        }
+    ]
+}

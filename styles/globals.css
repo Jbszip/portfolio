@@ -1,0 +1,34 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    color: rgb(214, 214, 214);
+    background: rgb(10, 8, 102);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+.cards{
+  color: rgb(8, 8, 52);
+  background: rgb(255, 255, 255);
+}
+.nav{
+  color: rgb(214, 214, 214);
+  background: rgb(8, 6, 52);
+}
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

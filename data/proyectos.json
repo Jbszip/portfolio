@@ -1,0 +1,24 @@
+{
+    "proyectos": [
+        {
+            "id": 1,
+            "title": "Giffear",
+            "description": "Giffear es un buscador de Gifs que utiliza la API de Giphy, desarrollado con React y utilizando una amplia cantidad de librerías para realizar distintas tareas, como por ejemplo react-router para el manejo de las rutas internas, o styled-components para el estilo de los componentes. Fue creado con el objetivo de aprender a utilizar dichas herramientas y mejorar el desenvolvimiento en el área de React. La página se encuentra hosteada en Vercel y se puede visitar. Además el código se encuentra disponible para su revisión en Github.",
+            "imagen": "/giffear1.png",
+            "tools": [""],
+            "detail": "/proyectos/giffear",
+            "visita":"https://giffear.vercel.app",
+            "type": "WEB"
+        },
+        {
+            "id": 2,
+            "title": "¿Qué comemos?",
+            "description": "Web que sugiere recetas de cocina dependiendo del clima de la ciudad que indiquemos. Desarrollado con Next, utilizando la API de OpenWeather y una lógica personalizada para las sugerencias. La página se encuentra hosteada en Vercel y se puede visitar. Además el código está disponible para su revisión en Github.",
+            "imagen": "/quecomemos1.png",
+            "tools": [""],
+            "detail":"/proyectos/quecomemos",
+            "visita":"https://quecomemos.vercel.app",
+            "type": "WEB"
+        }
+    ]
+}
