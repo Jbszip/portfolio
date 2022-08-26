@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Navbar from "../components/nav";
 import Footer from "../components/footer";
+import ToolsList from "../components/toolsList"
 
 export default function Perfil() {
   return (
@@ -17,7 +18,7 @@ export default function Perfil() {
           <div className="container flex flex-col items-center px-4 py-12 mx-auto xl:flex-row">
             <div className="flex justify-center xl:w-1/2">
               <img
-                className="xl:w-[400px] sm:w-[28rem] sm:h-[28rem] flex-shrink-0 rounded"
+                className="xl:w-[350px] xl:h-[400px] sm:w-[22rem] sm:h-[25rem] flex-shrink-0 rounded"
                 src="/profile.png"
                 alt="Imagen de perfil"
               />
@@ -83,6 +84,7 @@ export default function Perfil() {
               </div>
             </div>
           </div>
+          <ToolsList />
         </section>
       </main>
       <Footer />
