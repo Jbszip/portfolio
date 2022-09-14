@@ -37,11 +37,11 @@ export default function Perfil() {
                 responsable. Me encuentro en la búsqueda de una primera
                 experiencia que me permita comenzar mi camino en el mundo
                 laboral y estoy dispuesto a encarar un desafío de formación
-                constante. Mis conococimientos en el área del desarrollo
+                constante. Mis conocimientos en el área del desarrollo
                 Frontend son variadas, pasando desde lo más básico como HTML,
-                CSS y JavaScript, hasta Frameworks como React, NextJs y Angular.
+                CSS y JavaScript, hasta Frameworks como React y NextJs.
                 Uno de mis objetivos a corto plazo es formarme en el campo del
-                Backend.
+                Backend, mediante la implementación de MongoDB, MySQL, Node y Express.
               </p>
 
               <div className="mt-6 sm:-mx-2">
