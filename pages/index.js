@@ -10,6 +10,7 @@ export default function Home() {
       <Head>
         <title>JBS - Portfolio</title>
         <meta name="description" content="Portfolio personal" />
+        <meta name="google-site-verification" content="PgLDb426KI19SdOb658eBdODoxV8-yfy6nHtziVqXYQ" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.container}>
