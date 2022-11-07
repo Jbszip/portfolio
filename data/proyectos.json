@@ -2,6 +2,17 @@
     "proyectos": [
         {
             "id": 1,
+            "title": "Contactame",
+            "description": "Contactame es una aplicación web que te permite gestionar una agenda de contactos de forma fácil y sencilla. Su desarrollo implicó la utilización de Next para crear el frontend de la App y herramientas como Node, Express y MongoDB para crear la API REST que se encarga de gestionar el backend de la misma. Se encuentra desplegada en Vercel y se puede visitar. Además el código se encuentra disponible para su revisión en Github.",
+            "imagen": "/contactame1.png",
+            "tools": [""],
+            "detail": "/proyectos/contactame",
+            "visita":"https://contacta-me.vercel.app/",
+            "type": "Aplicación web"
+        },
+        
+        {
+            "id": 2,
             "title": "Giffear",
             "description": "Giffear es un buscador de Gifs que utiliza la API de Giphy, desarrollado con React y utilizando una amplia cantidad de librerías para realizar distintas tareas, como por ejemplo react-router para el manejo de las rutas internas, o styled-components para el estilo de los componentes. Fue creado con el objetivo de aprender a utilizar dichas herramientas y mejorar el desenvolvimiento en el área de React. La página se encuentra hosteada en Vercel y se puede visitar. Además el código se encuentra disponible para su revisión en Github.",
             "imagen": "/giffear1.png",
@@ -11,27 +22,7 @@
             "type": "WEB"
         },
         {
-            "id": 2,
-            "title": "¿Qué comemos?",
-            "description": "Web que sugiere recetas de cocina dependiendo del clima de la ciudad que indiquemos. Desarrollado con Next, utilizando la API de OpenWeather y una lógica personalizada para las sugerencias. La página se encuentra hosteada en Vercel y se puede visitar. Además el código está disponible para su revisión en Github.",
-            "imagen": "/quecomemos1.png",
-            "tools": [""],
-            "detail":"/proyectos/quecomemos",
-            "visita":"https://quecomemos.vercel.app",
-            "type": "WEB"
-        },
-        {
-            "id": 1,
-            "title": "Contactame",
-            "description": "Contactame es una aplicación web que te permite gestionar una agenda de contactos de forma fácil y sencilla. Su desarrollo implicó la utilización de Next para crear el frontend de la App y herramientas como Node, Express y MongoDB para crear la API REST que se encarga de gestionar el backend de la misma. Se encuentra desplegada en Vercel y se puede visitar. Además el código se encuentra disponible para su revisión en Github.",
-            "imagen": "/contactame1.png",
-            "tools": [""],
-            "detail": "/proyectos/contactame",
-            "visita":"https://contacta-me.vercel.app/",
-            "type": "Aplicación web"
-        },
-        {
-            "id": 1,
+            "id": 3,
             "title": "API de Contactos",
             "description": "Se trata de una API REST creada con Node, Express y MongoDB que permite gestionar usuarios y destinada a el manejo de una agenda de contactos. Además, cuenta con su documentación correspondiente implementada mediante Swagger.",
             "imagen": "/contactoapi.png",
@@ -39,6 +30,16 @@
             "detail": "/proyectos/contactoapi",
             "visita":"https://contactosapi-production.up.railway.app/api/v1/docs",
             "type": "API REST"
+        },
+        {
+            "id": 4,
+            "title": "¿Qué comemos?",
+            "description": "Web que sugiere recetas de cocina dependiendo del clima de la ciudad que indiquemos. Desarrollado con Next, utilizando la API de OpenWeather y una lógica personalizada para las sugerencias. La página se encuentra hosteada en Vercel y se puede visitar. Además el código está disponible para su revisión en Github.",
+            "imagen": "/quecomemos1.png",
+            "tools": [""],
+            "detail":"/proyectos/quecomemos",
+            "visita":"https://quecomemos.vercel.app",
+            "type": "WEB"
         }
     ]
 }
