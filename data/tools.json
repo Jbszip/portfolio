@@ -49,6 +49,26 @@
             "id":10,
             "imagen": "/bootstrap.svg",
             "name": "Bootstrap"
+        },
+        {
+            "id":11,
+            "imagen": "/node.svg",
+            "name": "NodeJS"
+        },
+        {
+            "id":12,
+            "imagen": "/expressjs.svg",
+            "name": "ExpressJs"
+        },
+        {
+            "id":13,
+            "imagen": "/mongo.svg",
+            "name": "MongoDB"
+        },
+        {
+            "id":14,
+            "imagen": "/swagger.svg",
+            "name": "Swagger"
         }
     ]
 }

@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Navbar from "../components/nav";
 import Footer from "../components/footer";
-import ToolsList from "../components/toolsList"
+import ToolsList from "../components/toolsList";
 
 export default function Perfil() {
   return (
@@ -29,7 +29,7 @@ export default function Perfil() {
                 Juan Bautista Solari
               </h1>
               <h3 className="text-l font-bold tracking-wide text-blue-500 italic lg:text-2xl">
-                Frontend Developer
+                Fullstack Developer
               </h3>
 
               <p className="block max-w-2xl mt-4 text-xl text-white">
@@ -37,11 +37,10 @@ export default function Perfil() {
                 responsable. Me encuentro en la búsqueda de una primera
                 experiencia que me permita comenzar mi camino en el mundo
                 laboral y estoy dispuesto a encarar un desafío de formación
-                constante. Mis conocimientos en el área del desarrollo
-                Frontend son variadas, pasando desde lo más básico como HTML,
-                CSS y JavaScript, hasta Frameworks como React y NextJs.
-                Uno de mis objetivos a corto plazo es formarme en el campo del
-                Backend, mediante la implementación de MongoDB, MySQL, Node y Express.
+                constante. Mis conocimientos en el área del desarrollo web son
+                variadas, abarcando tanto herramientas del Frontend, como ReactJs
+                o NextJs, y también del backend como son Node, Express y
+                MongoDB.
               </p>
 
               <div className="mt-6 sm:-mx-2">

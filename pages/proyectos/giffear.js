@@ -86,11 +86,17 @@ export default function Giffear() {
             <ul className="flex flex-row gap-8 content-center justify-center mx-auto">
               <li><div className="flex flex-wrap items-center justify-center px-2 py-1 rounded transition-colors duration-150 transform sm:w-auto bg-gradient-to-r from-blue-700 to-blue-900"><p className='items-center justify-center font-semibold px-1'>HTML</p><Image className="px-1 rounded" src="/html.svg" alt="HTML5" width={50} height={50}/></div></li>
               <li><div className="flex flex-wrap items-center justify-center px-2 py-1 rounded transition-colors duration-150 transform sm:w-auto bg-gradient-to-r from-blue-700 to-blue-900"><p className='items-center justify-center font-semibold px-1'>CSS</p><Image className="px-1 rounded" src="/css.svg" alt="CSS" width={50} height={50}/></div></li>
-              <li><div className="flex flex-wrap items-center justify-center px-2 py-1 rounded transition-colors duration-150 transform sm:w-auto bg-gradient-to-r from-blue-700 to-blue-900"><p className='items-center justify-center font-semibold px-1'>JavaScript</p><Image className="px-1 rounded" src="/js.svg" alt="SJavaScript" width={50} height={50}/></div></li>
+              <li><div className="flex flex-wrap items-center justify-center px-2 py-1 rounded transition-colors duration-150 transform sm:w-auto bg-gradient-to-r from-blue-700 to-blue-900"><p className='items-center justify-center font-semibold px-1'>JavaScript</p><Image className="px-1 rounded" src="/js.svg" alt="JavaScript" width={50} height={50}/></div></li>
               <li><div className="flex flex-wrap items-center justify-center px-2 py-1 rounded transition-colors duration-150 transform sm:w-auto bg-gradient-to-r from-blue-700 to-blue-900"><p className='items-center justify-center font-semibold px-1'>Git</p><Image className="px-1 rounded" src="/git.svg" alt="Git" width={50} height={50}/></div></li>
               <li><div className="flex flex-wrap items-center justify-center px-2 py-1 rounded transition-colors duration-150 transform sm:w-auto bg-gradient-to-r from-blue-700 to-blue-900"><p className='items-center justify-center font-semibold px-1'>React</p><Image className="px-1 rounded" src="/react.svg" alt="React" width={50} height={50}/></div></li>
               <li><div className="flex flex-wrap items-center justify-center px-2 py-1 rounded transition-colors duration-150 transform sm:w-auto bg-gradient-to-r from-blue-700 to-blue-900"><p className='items-center justify-center font-semibold px-1'>Styled Components</p><Image className="px-1 rounded" src="/styled.png" alt="Styled Components" width={50} height={50}/></div></li>
             </ul>
+          </div>
+          <div className="text-center my-2">
+          <h3 className="font-bold uppercase text-xl max-w-xs pb-1 mx-auto mt-2 mb-4 border-b-2 border-blue-600">
+            Datos de Web Performance
+          </h3>
+          <Image src="/giffearwp.png" alt="Web performance data" height={350} width={650}/>
           </div>
         </div>
       </main>

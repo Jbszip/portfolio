@@ -1,16 +1,16 @@
-import Head from "next/head"
-import Image from "next/image"
-import Footer from "../../components/footer"
-import Navbar from "../../components/nav"
-import proyectos from "../../data/proyectos.json"
+import Head from "next/head";
+import Image from "next/image";
+import Footer from "../../components/footer";
+import Navbar from "../../components/nav";
+import proyectos from "../../data/proyectos.json";
 
-
-export default function Quecomer() {
+export default function Contactame() {
+  console.log(proyectos.proyectos[2]);
   return (
     <>
       <Head>
-        <title>Proyecto ¿Qué Comemos? - JBS</title>
-        <meta name="description" content="Proyecto ¿Qué Comemos?" />
+        <title>Proyecto Giffear - JBS</title>
+        <meta name="description" content="Proyecto Giffear" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
@@ -19,27 +19,27 @@ export default function Quecomer() {
           <div className="flex justify-center xl:w-1/2 xl:mx-2 ">
             <img
               className="xl:w-[700px] sm:w-[28rem] sm:h-[20rem] md:w-[600px] flex-shrink-0 rounded"
-              src={proyectos.proyectos[1].imagen}
-              alt="Giffear"
+              src={proyectos.proyectos[3].imagen}
+              alt="contactoAPI"
             />
           </div>
 
           <div className="flex flex-col items-center mt-6 xl:items-start xl:w-1/2 xl:mt-0">
-            <h1 className="text-3xl font-bold uppercase tracking-tight text-white xl:text-4xl hover:text-blue-500">
-              {proyectos.proyectos[1].title}
+            <h1 className="text-3xl font-bold uppercase tracking-tight xl:text-4xl text-white hover:text-blue-500">
+              {proyectos.proyectos[3].title}
             </h1>
             <h3 className="text-l font-bold tracking-wide text-blue-500 lg:text-2xl">
-              {proyectos.proyectos[1].type}
+              {proyectos.proyectos[3].type}
             </h3>
 
             <p className="block max-w-2xl mt-4 text-xl text-white">
-              {proyectos.proyectos[1].description}
+              {proyectos.proyectos[3].description}
             </p>
 
             <div className="mt-6 sm:-mx-2">
               <div className="inline-flex w-full overflow-hidden rounded-lg shadow sm:w-auto sm:mx-2">
                 <a
-                  href="https://github.com/Jbszip/quecomemos"
+                  href="https://github.com/Jbszip/contactosAPI"
                   className="inline-flex items-center justify-center w-full px-5 py-3 text-base font-medium text-white bg-gradient-to-r from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-600 sm:w-auto"
                 >
                   <svg
@@ -55,7 +55,7 @@ export default function Quecomer() {
 
               <div className="inline-flex w-full mt-4 overflow-hidden rounded-lg shadow sm:w-auto sm:mx-2 sm:mt-0">
                 <a
-                  href="https://quecomemos.vercel.app"
+                  href="https://contactosapi-production.up.railway.app/api/v1/docs/"
                   className="inline-flex items-center justify-center w-full px-5 py-3 text-base font-medium text-white transition-colors duration-150 transform sm:w-auto bg-gradient-to-r from-blue-700 to-blue-900 hover:from-blue-600 hover:to-blue-600"
                 >
                   <svg
@@ -82,21 +82,15 @@ export default function Quecomer() {
           <h3 className="font-bold uppercase text-center text-xl max-w-xs pb-1 mx-auto mt-2 border-b-2 border-blue-600">
             Herramientas utilizadas
           </h3>
-          <div className="mt-8">
+          <div className="my-8">
             <ul className="flex flex-row gap-8 content-center justify-center mx-auto">
-              <li><div className="flex flex-wrap items-center justify-center px-2 py-1 rounded transition-colors duration-150 transform sm:w-auto bg-gradient-to-r from-blue-700 to-blue-900"><p className='items-center justify-center font-semibold px-1'>HTML</p><Image className="px-1 rounded" src="/html.svg" alt="HTML5" width={50} height={50}/></div></li>
-              <li><div className="flex flex-wrap items-center justify-center px-2 py-1 rounded transition-colors duration-150 transform sm:w-auto bg-gradient-to-r from-blue-700 to-blue-900"><p className='items-center justify-center font-semibold px-1'>CSS</p><Image className="px-1 rounded" src="/css.svg" alt="CSS" width={50} height={50}/></div></li>
-              <li><div className="flex flex-wrap items-center justify-center px-2 py-1 rounded transition-colors duration-150 transform sm:w-auto bg-gradient-to-r from-blue-700 to-blue-900"><p className='items-center justify-center font-semibold px-1'>JavaScript</p><Image className="px-1 rounded" src="/js.svg" alt="SJavaScript" width={50} height={50}/></div></li>
-              <li><div className="flex flex-wrap items-center justify-center px-2 py-1 rounded transition-colors duration-150 transform sm:w-auto bg-gradient-to-r from-blue-700 to-blue-900"><p className='items-center justify-center font-semibold px-1'>Git</p><Image className="px-1 rounded" src="/git.svg" alt="Git" width={50} height={50}/></div></li>
-              <li><div className="flex flex-wrap items-center justify-center px-2 py-1 rounded transition-colors duration-150 transform sm:w-auto bg-gradient-to-r from-blue-700 to-blue-900"><p className='items-center justify-center font-semibold px-1'>NextJs</p><Image className="px-1 rounded" src="/next.svg" alt="NextJs" width={50} height={50}/></div></li>
-              <li><div className="flex flex-wrap items-center justify-center px-2 py-1 rounded transition-colors duration-150 transform sm:w-auto bg-gradient-to-r from-blue-700 to-blue-900"><p className='items-center justify-center font-semibold px-1'>Tailwind</p><Image className="px-1 rounded" src="/tailwind.svg" alt="TailwindCSS" width={50} height={50}/></div></li>
+                <li><div className="flex flex-wrap items-center justify-center px-2 py-1 rounded transition-colors duration-150 transform sm:w-auto bg-gradient-to-r from-blue-700 to-blue-900"><p className='items-center justify-center font-semibold px-1'>JavaScript</p><Image className="px-1 rounded" src="/js.svg" alt="JavaScript" width={50} height={50}/></div></li>
+                <li><div className="flex flex-wrap items-center justify-center px-2 py-1 rounded transition-colors duration-150 transform sm:w-auto bg-gradient-to-r from-blue-700 to-blue-900"><p className='items-center justify-center font-semibold px-1'>Node</p><Image className="px-1 rounded" src="/node.svg" alt="NodeJs" width={50} height={50}/></div></li>
+                <li><div className="flex flex-wrap items-center justify-center px-2 py-1 rounded transition-colors duration-150 transform sm:w-auto bg-gradient-to-r from-blue-700 to-blue-900"><p className='items-center justify-center font-semibold px-1'>Swagger</p><Image className="px-1 rounded" src="/swagger.svg" alt="Swagger" width={50} height={50}/></div></li>
+                <li><div className="flex flex-wrap items-center justify-center px-2 py-1 rounded transition-colors duration-150 transform sm:w-auto bg-gradient-to-r from-blue-700 to-blue-900"><p className='items-center justify-center font-semibold px-1'>ExpressJs</p><Image className="px-1 rounded" src="/expressjs.svg" alt="ExpressJs" width={50} height={50}/></div></li>
+                <li><div className="flex flex-wrap items-center justify-center px-2 py-1 rounded transition-colors duration-150 transform sm:w-auto bg-gradient-to-r from-blue-700 to-blue-900"><p className='items-center justify-center font-semibold px-1'>MongoDB</p><Image className="px-1 rounded" src="/mongo.svg" alt="MongoDB" width={50} height={50}/></div></li>
+                <li><div className="flex flex-wrap items-center justify-center px-2 py-1 rounded transition-colors duration-150 transform sm:w-auto bg-gradient-to-r from-blue-700 to-blue-900"><p className='items-center justify-center font-semibold px-1'>Git</p><Image className="px-1 rounded" src="/git.svg" alt="Git" width={50} height={50}/></div></li>
             </ul>
-          </div>
-          <div className="text-center mt-4 mb-2">
-          <h3 className="font-bold uppercase text-xl max-w-xs pb-1 mx-auto mt-2 mb-4 border-b-2 border-blue-600">
-            Datos de Web Performance
-          </h3>
-          <Image src="/quecomemoswp.png" alt="Web performance data" height={350} width={650}/>
           </div>
         </div>
       </main>
