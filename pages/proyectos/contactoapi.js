@@ -19,21 +19,21 @@ export default function Contactame() {
           <div className="flex justify-center xl:w-1/2 xl:mx-2 ">
             <img
               className="xl:w-[700px] sm:w-[28rem] sm:h-[20rem] md:w-[600px] flex-shrink-0 rounded"
-              src={proyectos.proyectos[3].imagen}
+              src={proyectos.proyectos[2].imagen}
               alt="contactoAPI"
             />
           </div>
 
           <div className="flex flex-col items-center mt-6 xl:items-start xl:w-1/2 xl:mt-0">
             <h1 className="text-3xl font-bold uppercase tracking-tight xl:text-4xl text-white hover:text-blue-500">
-              {proyectos.proyectos[3].title}
+              {proyectos.proyectos[2].title}
             </h1>
             <h3 className="text-l font-bold tracking-wide text-blue-500 lg:text-2xl">
-              {proyectos.proyectos[3].type}
+              {proyectos.proyectos[2].type}
             </h3>
 
             <p className="block max-w-2xl mt-4 text-xl text-white">
-              {proyectos.proyectos[3].description}
+              {proyectos.proyectos[2].description}
             </p>
 
             <div className="mt-6 sm:-mx-2">
@@ -83,7 +83,7 @@ export default function Contactame() {
             Herramientas utilizadas
           </h3>
           <div className="my-8">
-            <ul className="flex flex-row gap-8 content-center justify-center mx-auto">
+            <ul className="flex flex-wrap gap-8 content-center justify-center mx-auto">
                 <li><div className="flex flex-wrap items-center justify-center px-2 py-1 rounded transition-colors duration-150 transform sm:w-auto bg-gradient-to-r from-blue-700 to-blue-900"><p className='items-center justify-center font-semibold px-1'>JavaScript</p><Image className="px-1 rounded" src="/js.svg" alt="JavaScript" width={50} height={50}/></div></li>
                 <li><div className="flex flex-wrap items-center justify-center px-2 py-1 rounded transition-colors duration-150 transform sm:w-auto bg-gradient-to-r from-blue-700 to-blue-900"><p className='items-center justify-center font-semibold px-1'>Node</p><Image className="px-1 rounded" src="/node.svg" alt="NodeJs" width={50} height={50}/></div></li>
                 <li><div className="flex flex-wrap items-center justify-center px-2 py-1 rounded transition-colors duration-150 transform sm:w-auto bg-gradient-to-r from-blue-700 to-blue-900"><p className='items-center justify-center font-semibold px-1'>Swagger</p><Image className="px-1 rounded" src="/swagger.svg" alt="Swagger" width={50} height={50}/></div></li>

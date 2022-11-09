@@ -19,21 +19,21 @@ export default function Quecomer() {
           <div className="flex justify-center xl:w-1/2 xl:mx-2 ">
             <img
               className="xl:w-[700px] sm:w-[28rem] sm:h-[20rem] md:w-[600px] flex-shrink-0 rounded"
-              src={proyectos.proyectos[1].imagen}
+              src={proyectos.proyectos[3].imagen}
               alt="Giffear"
             />
           </div>
 
           <div className="flex flex-col items-center mt-6 xl:items-start xl:w-1/2 xl:mt-0">
             <h1 className="text-3xl font-bold uppercase tracking-tight text-white xl:text-4xl hover:text-blue-500">
-              {proyectos.proyectos[1].title}
+              {proyectos.proyectos[3].title}
             </h1>
             <h3 className="text-l font-bold tracking-wide text-blue-500 lg:text-2xl">
-              {proyectos.proyectos[1].type}
+              {proyectos.proyectos[3].type}
             </h3>
 
             <p className="block max-w-2xl mt-4 text-xl text-white">
-              {proyectos.proyectos[1].description}
+              {proyectos.proyectos[3].description}
             </p>
 
             <div className="mt-6 sm:-mx-2">
@@ -83,7 +83,7 @@ export default function Quecomer() {
             Herramientas utilizadas
           </h3>
           <div className="mt-8">
-            <ul className="flex flex-row gap-8 content-center justify-center mx-auto">
+            <ul className="flex flex-wrap gap-8 content-center justify-center mx-auto">
               <li><div className="flex flex-wrap items-center justify-center px-2 py-1 rounded transition-colors duration-150 transform sm:w-auto bg-gradient-to-r from-blue-700 to-blue-900"><p className='items-center justify-center font-semibold px-1'>HTML</p><Image className="px-1 rounded" src="/html.svg" alt="HTML5" width={50} height={50}/></div></li>
               <li><div className="flex flex-wrap items-center justify-center px-2 py-1 rounded transition-colors duration-150 transform sm:w-auto bg-gradient-to-r from-blue-700 to-blue-900"><p className='items-center justify-center font-semibold px-1'>CSS</p><Image className="px-1 rounded" src="/css.svg" alt="CSS" width={50} height={50}/></div></li>
               <li><div className="flex flex-wrap items-center justify-center px-2 py-1 rounded transition-colors duration-150 transform sm:w-auto bg-gradient-to-r from-blue-700 to-blue-900"><p className='items-center justify-center font-semibold px-1'>JavaScript</p><Image className="px-1 rounded" src="/js.svg" alt="SJavaScript" width={50} height={50}/></div></li>
