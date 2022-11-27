@@ -37,8 +37,8 @@
         },
         {
             "id":8,
-            "imagen": "/sql.svg",
-            "name": "SQL"
+            "imagen": "/firebase.svg",
+            "name": "Firebase"
         },
         {
             "id":9,
@@ -69,6 +69,31 @@
             "id":14,
             "imagen": "/swagger.svg",
             "name": "Swagger"
+        },
+        {
+            "id":15,
+            "imagen": "/redux.svg",
+            "name": "Redux"
+        },
+        {
+            "id":16,
+            "imagen": "/graphql.svg",
+            "name": "GraphQL"
+        },
+        {
+            "id":17,
+            "imagen": "/sql.svg",
+            "name": "SQL"
+        },
+        {
+            "id":18,
+            "imagen": "/ant-design.svg",
+            "name": "Ant Design"
+        },
+        {
+            "id":19,
+            "imagen": "/socket-io.svg",
+            "name": "Socket IO"
         }
     ]
 }
